@@ -1,0 +1,456 @@
+{
+  "type": "message_start",
+  "message": {
+    "model": "claude-opus-4-6",
+    "id": "msg_01X5w1WmskQmT8wXiJvf4117",
+    "type": "message",
+    "role": "assistant",
+    "content": [],
+    "stop_reason": null,
+    "stop_sequence": null,
+    "stop_details": null,
+    "usage": {
+      "input_tokens": 2296,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 7,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}{
+  "type": "content_block_start",
+  "index": 0,
+  "content_block": {
+    "type": "text",
+    "text": ""
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "\n\n# Brew Guide: Light"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " Roast Thermal Shock Gesha — Conical Brewer\n\n---\n\n## Brew Profile\n\nThis is a delicate bal"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "ancing act. You have a high-density, light-roasted Gesha at"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " 1800 masl — which normally screams \"push extraction hard\" — but the thermal shock processing"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " pumps the brakes. Thermal shock is one of the more"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " aggressive experimental processes, dramatically increasing solubility and fermentation character in the bean"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": ". Your strategy here is **controlled, moderate extraction**: enough"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " energy to crack open that dense light-roasted cell"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " structure, but gentle enough to preserve the exotic florals and fruit complexity that thermal shock Ges"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "has are known for without dragging out harsh, boozy fermentation by"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "products. The conical brewer will emphasize clarity and brightness, which is great"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " for Gesha's delicate aromatics — but it also means you have"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " less margin for error, so precision matters.\n\n---\n\n## Recommended Parameters\n\n|"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " Parameter | Recommendation |\n|---|---|\n| **Dose** | 15g (flexible — the ratio"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " is what matters) |\n| **Water** | 240g |\n| **Ratio** | "
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "1:16 |\n| **Grind size** | Medium — slightly finer than coarse sea salt, but not as fine as table"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " sugar. On a Comandante: ~24–26 clicks. On a 1Zpresso JX: ~3."
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "2.0–3.4.0. On a ZP6: ~50–52 clicks. |\n| **Water temp"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "** | 90°C |\n\n### Why these numbers:\n\n**Ratio —"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " 1:16:** This is the safe baseline for non-washed processing. At"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " 1800 masl with a light roast, you might normally push to 1:16"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": ".5 or 1:17 for a washed coffee, but thermal shock's"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " increased solubility means a standard 1:16 will already extract plenty of flavor. Going"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " higher risks pulling harsh fermentation notes.\n\n**Grind —"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " coarser than you'd expect for a light roast at this elevation:** Here"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "'s the tension. Light roast + 1800 masl + Gesha = high density, which"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " normally means grind finer. But thermal shock processing significantly increases solubility, so the coffee will give"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " up its flavors more readily than a washed Gesha at the same elevation"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": ". Go coarser than you would for a washed version to compensate. On"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " a conical brewer, where grind changes have an outsized impact on flow rate and"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " extraction, this coarser setting also gives you a safety buffer against"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " over-extraction.\n\n**Temperature — 90°C:** This is a compromise. Light roast and high density"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " want heat (92–96°C range) to penetrate that"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " hard cell structure. But thermal shock processing demands caution — high"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " temps will aggressively extract those fermentation compounds and can"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " turn delicate tropical fruit into cough-sy"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "rup sweetness fast. 90°C threads the needle: warm enough to properly extract a"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " dense light roast, cool enough to treat the thermal shock processing respectfully. If"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " your first cup tastes slightly underdeveloped or"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " sour, nudge up to 91°C — but don't go above 92"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "°C.\n\n---\n\n## Step-by-Step Brew Guide\n\n**Total target brew time:"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " ~2:45–3:15**\n\n### Step 1 "
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "— Extended Bloom (0:00–0:45)\nPour **45g"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "** of water in slow, concentric circles, making sure all grounds are ev"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "enly saturated. Then **stop and wait** until "
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "0:45.\n\n**Why 45s and not 30s:** Thermal shock processing creates"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " beans with significant CO2 and fermentation gas trapped"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " inside. A longer bloom lets that gas escape before your main"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " pours begin. If you cut this short, the CO2 will rep"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "el water during your main pours, creating chann"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "eling — especially dangerous in a conical brewer where the V-"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "shape already concentrates flow. You may see an aggressive"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": ", bubbly bloom; that's normal for this kind of processing."
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " Let it fully degas. Use a 3:1 water"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": "-to-coffee bloom ratio to ensure full saturation without premature extraction.\n\n### Step 2 — First"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " Main Pour (0:45–1:15)\nStarting at 0:45, pour **100g** of water (up"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " to 145g total) in slow, steady concentric circles. Keep the kettle low and the stream"
+  }
+}{
+  "type": "content_block_delta",
+  "index": 0,
+  "delta": {
+    "type": "text_delta",
+    "text": " gentle — no aggressive center pours.\n\n**Why"
+  }
+}{
+  "type": "content_block_stop",
+  "index": 0
+}{
+  "type": "message_delta",
+  "delta": {
+    "stop_reason": "max_tokens",
+    "stop_sequence": null,
+    "stop_details": null
+  },
+  "usage": {
+    "input_tokens": 2296,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1024
+  }
+}{
+  "type": "message_stop"
+}
