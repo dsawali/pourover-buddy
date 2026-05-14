@@ -23,7 +23,7 @@ export type CoffeeVariety =
   | 'heirloom'
   | 'liberica'
   | 'other'
-  | 'unknown';        // most bags won't list variety — Claude handles gracefully
+  | 'unknown';
 
 export interface BrewRequest {
   brewer: 'conical' | 'flat_bottom';
@@ -31,19 +31,4 @@ export interface BrewRequest {
   variety: CoffeeVariety;
   elevationMeters?: number | undefined;
   roastLevel: 'light' | 'medium' | 'dark';
-
-}
-
-export interface TroubleshootRequest {
-  tasteDescription: string;
-  brewer?: string;
-  doseGrams?: number;
-  waterGrams?: number;
-  numberOfPours?: number;
-  grindSize?: string;
-  waterTempCelsius?: number;
-  processing?: CoffeeProcessing;
-  variety?: CoffeeVariety;
-  elevationMeters?: number;
-  roastLevel?: 'light' | 'medium' | 'dark';
 }

@@ -105,7 +105,7 @@ what matters is what the user tastes.
 Confirm back the key variables — ratio, temp, brewer — so the user knows
 you understood their setup. Calculate and state the ratio explicitly.
 
-**Diagnosis** (2–3 sentences):
+**Diagnosis** (1–2 sentences):
 Confirm back what the user wanted to improve on (adding more sweetness, adding more brightness, etc).
 Diagnose the extraction problem clearly. Explain which variable or combination of variables most likely caused it,
 referencing their specific numbers.
