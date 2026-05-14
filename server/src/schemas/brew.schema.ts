@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
-const CoffeeProcessingSchema = z.enum([
-  'washed',
+export const CoffeeProcessingSchema = z.enum([
+ 'washed',
   'natural',
   'honey',
   'anaerobic',
@@ -46,5 +46,4 @@ export const BrewRequestSchema = z.object({
   roastLevel: z.enum(['light', 'medium', 'dark']),
 });
 
-// Derive the TypeScript type from the schema — single source of truth
 export type BrewRequest = z.infer<typeof BrewRequestSchema>;

@@ -1,10 +1,8 @@
 import Anthropic from '@anthropic-ai/sdk';
-// import { BrewDiagnosisSchema } from '../schemas/diagnosis.schema.js';
+// import { TroubleshootRequestSchema } from '../schemas/diagnosis.schema.js';
 // import { BrewDiagnosis } from '../types/diagnosis.types.js';
 import 'dotenv/config';
 
-
-console.log(process.env.ANTHROPIC_API_KEY)
 
 const client = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
@@ -25,9 +23,14 @@ export async function streamBrewGuide(
   });
 }
 
-// export async function getDiagnosis(
-//   systemPrompt: string,
-//   userPrompt: string
-// ): Promise<BrewDiagnosis> {
-
-// }
+export async function streamTroubleshoot(
+  systemPrompt: string,
+  userPrompt: string
+) {
+  return client.messages.stream({
+    model: MODEL,
+    max_tokens: 1024,
+    system: systemPrompt,
+    messages: [{ role: 'user', content: userPrompt }],
+  })
+}

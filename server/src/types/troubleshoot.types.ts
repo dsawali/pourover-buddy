@@ -1,9 +1,6 @@
 import { type CoffeeProcessing } from './brew.types.js'
 
-
 export interface TroubleshootRequest {
-  tasteDescription: string;
-  goalDescription: string;
   brewer: string;
   doseGrams: number;
   waterGrams: number;
@@ -12,4 +9,6 @@ export interface TroubleshootRequest {
   waterTempCelsius: number;
   processing: CoffeeProcessing;
   roastLevel: 'light' | 'medium' | 'dark';
+  tasteDescription: string;
+  goalDescription: string;
 }

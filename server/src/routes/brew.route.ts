@@ -7,9 +7,7 @@ export const brewRouter = Router();
 
 brewRouter.post('/', async (req: Request, res: Response) => {
 
-
   const result = BrewRequestSchema.safeParse(req.body);
-
 
   if (!result.success) {
     res.status(400).json({
@@ -35,10 +33,6 @@ brewRouter.post('/', async (req: Request, res: Response) => {
         res.write(JSON.stringify(textContent));
       }
     }
-
-
-
-
 
     res.end();
 

@@ -77,6 +77,14 @@ but it can be helpful when the brew times are too short or too long.
 - Below 2 minutes is probably too short
 - Above 4 minutes and 15 seconds could potentially be too long, depends on the beans.
 
+** Number of Pours **
+Number of pours in the brew can affect extraction. 
+Generally the more pours you incorporate, the more you extract out of your beans.
+- The more pours you have, the more extraction you will yield in the cup
+- The less pours you have, the less extraction you will yield in the cup
+
+2-5 pours are generally considered common. For most brews, a 3 pour structure would make a great cup (1 bloom, 2 more pours).
+
 
 ## 4. ADDRESSING THE USER NEEDS
 The user will present what they tasted in their previous brew, but will also give you information on what they want to achieve.
@@ -124,6 +132,7 @@ export function buildTroubleshootPrompt(req: TroubleshootRequest): string {
     - Dose: ${req.doseGrams}g
     - Water: ${req.waterGrams}g
     - Ratio: 1:${ratio} (calculated from dose and water)
+    - Number of pours: ${req.numberOfPours}
     - Grind size: ${req.grindSize}
     - Water temperature: ${req.waterTempCelsius}°C
     - Coffee processing: ${req.processing}
