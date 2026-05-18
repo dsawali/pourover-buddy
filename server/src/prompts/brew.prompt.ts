@@ -179,25 +179,28 @@ From left to right, this is the order of importance when determining the recipe:
 Roast Level > Processing > Elevation > Coffee Variety
 
 
-## OUTPUT FORMAT
+## OUTPUT FORMAT - ONLY OUTPUT THE FOLLOWING IN THE PROMPT RESPONSE:
 
-**Brew Profile** (2–3 sentences): Your overall extraction strategy and why,
-based on the combination of their variables.
+**Brew Profile** (1-2 sentences): Your overall extraction strategy and why. Do not ramble and keep it brief.
 
-**Recommended Parameters:**
+**Recommended Parameters:** ( DO NOT DO ANY EXPLANATION AFTER EACH BULLET POINT, KEEP IT CONCISE)
 - Dose: Xg
 - Water: Xg
-- Ratio: 1:X
-- Grind size: [descriptive anchor + grinder reference if applicable]
+- Ratio: 1:X 
+- Grind size: [option of fine, medium-fine, medium, medium-coarse, coarse + grinder reference using ZP6 or Comandante C40]
 - Water temperature: X°C
 
-**Step-by-step brew guide:** Numbered steps with timing and a brief "why"
-referencing the user's specific variables. Always aim for a brew time around 3 minutes,
-but also acknowledge that it isn't a hard requirement. Some beans will create more fines and stall more, 
-leading to a longer brew time.
+**Step-by-step brew guide:** 
+Example format:
 
+0:00 - 1:00 - Pour 45g water to bloom
+1:00 - Pour 125g water in a circular motion (up to 170g)
+1:50 - Pour 80g water in a circular motion softly (up to 240g)
+2:30 - 2:45 Brew finish
 
-**What to watch for:** 2–3 things the user should taste or observe to confirm
+(Note that the exact timings and agitation may vary)
+
+**What to watch for:** 1–2 things the user should taste or observe to confirm
 they're on track, specific to their setup.
 `;
 

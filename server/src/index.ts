@@ -4,10 +4,6 @@ import cors from 'cors';
 import { brewRouter } from '../src/routes/brew.route.js';
 import { troubleshootRouter } from '../src/routes/troubleshoot.route.js';
 
-
-
-
-
 dotenv.config();
 
 const app = express();
