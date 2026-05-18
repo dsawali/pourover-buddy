@@ -1,4 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
+import type { MessageParam } from '@anthropic-ai/sdk/resources/messages.js';
 import 'dotenv/config';
 
 const client = new Anthropic({
@@ -29,5 +30,17 @@ export async function streamTroubleshoot(
     max_tokens: 1024,
     system: systemPrompt,
     messages: [{ role: 'user', content: userPrompt }],
+  });
+}
+
+export async function streamChat(
+  systemPrompt: string,
+  messages: MessageParam[]
+) {
+  return client.messages.stream({
+    model: MODEL,
+    max_tokens: 1024,
+    system: systemPrompt,
+    messages,
   });
 }
